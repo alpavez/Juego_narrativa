@@ -584,8 +584,8 @@ a:focus {
 	top: 0;
 	height: 100%;
 	pointer-events: none;
-	border: 3px solid;
-	background: #fff;
+	border: 1px solid;
+	background: rgb(134, 132, 132);
 }
 
 .nav::before {
