@@ -195,7 +195,7 @@ a:focus {
 	width: 70%;
 	max-width: 400px;
 	padding: 9vw 3vw;
-	background: #fff;
+	background: rgb(141, 137, 137);
 }
 
 .grid__link--offset {
@@ -211,7 +211,7 @@ a:focus {
 }
 
 .grid__link:hover::before {
-	content: 'Try me';
+	content: 'Veamos';
 	position: absolute;
 	top: 20px;
 	left: 20px;
@@ -390,15 +390,15 @@ a:focus {
 }
 
 .vision__background-img--beach {
-	background-image: url(../img/image1.jpg);
+	background-image: url(../img/venecia.jpg);
 }
 
 .vision__background-img--mountains {
-	background-image: url(../img/image2.jpg);
+	background-image: url(../img/machu.jpg);
 }
 
 .vision__background-img--city {
-	background-image: url(../img/image3.jpg);
+	background-image: url(../img/china.jpg);
 }
 
 .vision--loaded .vision__background-img--current {
@@ -447,29 +447,6 @@ a:focus {
 	opacity: 0;
 }
 
-.vision__overlay-bg--1 {
-	background: rgba(111,79,117,0.4);
-}
-
-.vision__overlay-bg--2 {
-	background: rgba(236,118,156,0.3);
-}
-
-.vision__overlay-bg--3 {
-	background: rgba(165,129,100,0.4);
-}
-
-.vision__overlay-bg--4 {
-	background: rgba(250,230,65,0.3);
-}
-
-.vision__overlay-bg--5 {
-	background: rgba(159,150,138,0.6);
-}
-
-.vision__overlay-bg--6 {
-	background: linear-gradient(to bottom, rgba(50,65,46,1), rgba(139,153,123,0.35));
-}
 
 .vision__overlay-glasses {
 	position: absolute;
